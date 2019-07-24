@@ -1,4 +1,4 @@
-# gurobi_RCPSP_J14
+# gurobi_MRCPSP_J14
 
 Solving MRCPSP problems with gurobi, limited to J14 test case dataset
 
