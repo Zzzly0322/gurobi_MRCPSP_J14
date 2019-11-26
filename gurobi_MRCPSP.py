@@ -59,7 +59,7 @@ class Instance():
                             sum_ti+=x[i,jm,t0]*t0
                         for t1 in range(T):
                             sum_tj+=x[j-1,jm,t1]*(t1+self.job_model_duration[j][jm+1])
-                        m.addConstr(sum_ti>=sum_tj)
+                    m.addConstr(sum_ti>=sum_tj)
         # Resource constraint
 
         for k in range(self.number_renewable_resources):

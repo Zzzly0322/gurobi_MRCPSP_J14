@@ -1,8 +1,8 @@
-# gurobi_RCPSP_J30
+# gurobi_MRCPSP_J14
 
-Solving RCPSP problems with gurobi, limited to J30 test case dataset
+Solving MRCPSP problems with gurobi, limited to J14 test case dataset
 
-The data sets are from  http://www.om-db.wi.tum.de/psplib/data.html
+The data sets are from  http://www.om-db.wi.tum.de/psplib/getdata.cgi?mode=mm
 
-Existing optimal solution can be found in  https://people.eng.unimelb.edu.au/pstuckey/rcpsp/
+Existing optimal solution can be found in http://www.om-db.wi.tum.de/psplib/files/j14opt.mm
 
