@@ -11,4 +11,4 @@ def main(file):
     Gantt_chart_draw.Gantt_chart(start,finish)
 
 if __name__ == '__main__':
-    main(file="./data/j14.mm/j1463_1.mm")
+    main(file="./data/j14.mm/j1463_3.mm")

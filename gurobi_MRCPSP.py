@@ -1,6 +1,5 @@
 from gurobipy import *
 import data_read_MRCPSP
-
 import random
 import matplotlib.pyplot as plt
 import  numpy as np
@@ -21,6 +20,7 @@ class Instance():
         self.number_unrenewable_resources = None
         self.resource_capacity = None
         self.upper_bound=228
+
 
     def loadData(self,file):
         data_read_MRCPSP.dataStore(self, file)
